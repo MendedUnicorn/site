@@ -1,0 +1,28 @@
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.add-post-form input[type='file'] {
+  display: none;
+}
+
+.file-input {
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.file-input span {
+  padding: 5px;
+  color: green;
+}
+.text {
+  width: 400px;
+}
+.preview {
+  height: 400px;
+  width: 400px;
+}

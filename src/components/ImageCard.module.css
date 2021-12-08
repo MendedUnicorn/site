@@ -1,0 +1,102 @@
+.image-card {
+  display: relative;
+  width: 400px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.title-bar {
+  display: flex;
+  align-items: center;
+}
+.title-bar img {
+  margin: 0 10px;
+  height: 2em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.title-bar p {
+}
+.image-card > img {
+  width: 100%;
+}
+
+.button-bar {
+  padding: 0 10px;
+  text-align: initial;
+  position: relative;
+}
+.button-bar img {
+  margin: 5px;
+}
+.location {
+  margin-right: auto;
+}
+
+.bookmark {
+  position: absolute;
+  right: 10px;
+  color: green;
+}
+
+.likes {
+  font-size: 1em;
+  text-align: left;
+  margin-left: 10px;
+}
+.description {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.time-stamp {
+  font-size: 0.6em;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.image-card form {
+  border-top: 1px solid #999;
+}
+
+.image-card input {
+  width: 85%;
+  border: none;
+  height: 2.5em;
+  border-radius: 0px;
+}
+
+.image-card button {
+  width: 15%;
+  height: 2.5em;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  color: blue;
+}
+.image-card button:hover {
+  cursor: pointer;
+}
+.image-card input:active {
+  border: none;
+  outline: none;
+}
+
+.image-card input:focus {
+  border: none;
+  outline: none;
+}
+
+.image-card ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.image-card li {
+  color: red;
+  margin: 0;
+  text-align: start;
+}
